@@ -1,0 +1,52 @@
+ere are some common Python interview questions for senior developers, covering a range of topics:
+
+Object-Oriented Programming (OOP):
+
+Explain inheritance, encapsulation, abstraction, and polymorphism in detail, providing Python-specific examples.
+Describe the use cases for class methods, static methods, and instance methods.
+Implement the singleton pattern in Python, discussing its pros and cons.
+Compare and contrast decorators and subclassing, providing examples of when each is appropriate.
+Explain the concept of metaclasses and how they can be used to customize class creation.
+Memory Management:
+
+Describe Python's memory management mechanisms, including reference counting, garbage collection, and the Global Interpreter Lock (GIL).
+
+How do you handle circular references in Python?
+What are weak references and how are they used?
+Optimize memory usage for large datasets in Python.
+Data Structures and Algorithms:
+
+Implement a Python function to check if a binary tree is balanced.
+Reverse a linked list in Python iteratively and recursively.
+Find the top K most frequent elements in a large dataset.
+Describe sorting algorithms like merge sort and quick sort, discussing their time and space complexities.
+Explain graph data structures and algorithms like depth-first search (DFS) and breadth-first search (BFS).
+Design Patterns:
+
+Implement the Observer pattern in Python, providing a real-life example.
+Explain the Factory pattern and its use cases.
+Describe the Singleton pattern, its implementation, and potential issues.
+Implement a simple Decorator pattern in Python.
+When would you use the Strategy pattern?
+
+
+Web Development:
+
+Explain the request-response cycle in web frameworks like Django or Flask.
+Describe common web security vulnerabilities like XSS and CSRF, and how to prevent them.
+Optimize database queries for performance in web applications.
+Handle sessions and user authentication in a Python web application.
+Implement RESTful APIs in Python using a web framework.
+Testing:
+
+Write unit tests for a Python function using a testing framework like unittest or pytest.
+Explain test-driven development (TDD) and its benefits.
+Differentiate between unit testing, integration testing, and system testing.
+Mock external dependencies in Python unit tests.
+Advanced Python Topics:
+
+Explain generators and coroutines, providing examples of their use.
+Implement multithreading and multiprocessing in Python, discussing their differences and use cases.
+Describe asynchronous programming with async/await in Python.
+Optimize Python code for performance using profiling tools.
+Apply design patterns to solve common Python programming problems.
