@@ -1,0 +1,15 @@
+app/
+domain/
+entities/ (Represents core domain concepts and data)
+value_objects/ (Represents immutable objects with domain-specific meaning)
+repositories/ (Abstracts data access for entities and value objects)
+services/ (Contains application logic and services, coordinating domain objects)
+infrastructure/
+database/ (Contains database interaction logic and models)
+redis/ (Contains Redis-specific logic, if used)
+external_services/ (Contains logic for interacting with external APIs)
+presentation/
+schemas/ (Defines Pydantic models for request/response data)
+routers/ (Defines FastAPI routes and handles request/response flow)
+views/ (Optional layer for handling presentation logic)
+main.py (Entry point for the application)
