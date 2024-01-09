@@ -8,7 +8,6 @@
 #         print(id(obj), sys.getsizeof(obj))
 
 
-
 import sys
 
 my_list = [1, 2, 3, "hello"]

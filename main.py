@@ -1,8 +1,15 @@
-import itertools
+from queue import Queue
 
-numbers = [1, 2, 3]
-letters = ['a', 'b']
+class MyClass:
+    def __init__(self):
+        print("Initializing MyClass")
 
-# Generate all possible pairs of numbers and letters
-for pair in itertools.product(numbers, letters):
-    print(pair)
+    @staticmethod
+    def my_static_method():
+        print("Inside static method")
+
+# Creating an instance of MyClass
+# obj = MyClass()
+
+# Calling the static method
+MyClass.my_static_method()
